@@ -29,6 +29,8 @@ function App() {
       }
     );
 
+
+
     return () => {
       authListener.subscription.unsubscribe();
     };
